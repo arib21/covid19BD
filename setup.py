@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='covid19BD',
-  version='0.0.1',
+  version='1.0.0',
   description='It lets you interact with my database created by Covid-19 Bot hosted on repl.it for Bangladesh from 15th January 2021 - Current Day.',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   long_description_content_type="text/markdown",
@@ -21,5 +21,5 @@ setup(
   classifiers=classifiers,
   keywords=['Covid-19', 'Coronavirus'], 
   packages=find_packages(),
-  install_requires=['pyrebase', 'json']
+  install_requires=['pyrebase']
 )
